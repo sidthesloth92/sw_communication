@@ -1,0 +1,50 @@
+body {
+	background: #09F;
+}
+
+.container {
+	position: absolute;
+	width: 320px;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);	
+
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.title {
+	font-size: 17px;
+	margin: 50px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.help {
+	font-size: 14px;
+	margin: 10px 0px;
+}
+button {
+	display: inline-block;
+    background: transparent;
+    width: 100px;
+	margin: 10px auto;
+	box-sizing: border-box;
+
+    border: 2px solid white;
+    padding: 10px 0px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:focus {
+	outline:0;
+}
+button:active {
+	background: rgba(0, 0, 0, 0.2);
+}
