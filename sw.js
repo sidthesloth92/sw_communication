@@ -5,8 +5,6 @@ self.addEventListener('activate', function(event) {
 self.addEventListener('message', function(event) {
     var data = event.data;
 
-    var data = event.data;
-
     if (data.command == "oneWayCommunication") {
         console.log("Message from the Page : ", data.message);
     } else if (data.command == "twoWayCommunication") {
