@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-=======
 self.addEventListener('activate', function(event) {
     console.log("Ready for the demo");
 });
 
->>>>>>> master
 self.addEventListener('message', function(event) {
     var data = event.data;
 
